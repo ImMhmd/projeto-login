@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*
+    Paleta de cores
+    verde: #49a09d
+    lilás: #5f2c82
+*/
+
+:root{
+    --fonte: "Rubik", Arial, sans-serif;
+    --cor1: #741FF0
+    --cor2: #B81FF0
+     
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--fonte)
+    
+}
+
+body, html{
+    background-color: purple;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    
+}
+
+main{
+    height: 100vh;
+    width: 100vw;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.712);
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem{
+    background: purple url(../imagens/pexels-pixabay-206359.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    display: block;
+
+
+}
+
+section#login > divform#formulario{
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > p{
+    font-size: 0.9em;
+
+}
+
