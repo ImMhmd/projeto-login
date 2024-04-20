@@ -79,6 +79,8 @@ div#formulario > p{
     font-size: 0.9em;
     margin-left: 5px;
     padding-bottom: 5px;
+    text-align: justify;
+    padding-right: 10px;
 
 }
 
