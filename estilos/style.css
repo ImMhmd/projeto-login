@@ -70,6 +70,8 @@ div#formulario > h1{
     text-align: center;
     margin-bottom: 10px;
     margin-top: 5px;
+    color: rgb(7, 132, 182);
+    text-decoration: underline;
 
 }
 
@@ -106,6 +108,8 @@ div.campo > input{
     text-indent: 7px;
     border-radius: 5px;
     transform: translateY(-7px);
+    border-color: rgb(0, 153, 255);
+    width: 245px;
 }
 
 form > input[type=submit]{

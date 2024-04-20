@@ -31,12 +31,19 @@
     div#formulario > h1 {
         font-size: 1.6em;
         padding-top: 10px;
+        color: rgb(7, 132, 182);
+        text-decoration: underline;
     
     }
 
     form > .campo{
        margin-top: 3px;
-       margin-bottom: 0px;
+       margin-bottom: 10px;
+    }
+
+    div.campo > input{
+        border-color: rgb(0, 153, 255);
+        width: 340px;
     }
 
     form > input[type=submit]{
@@ -90,12 +97,9 @@
 
     div.campo > input{
         border-color: rgb(0, 153, 255);
+        width: 420px;
     }
         
-        
-    
-
-
     form > input[type=submit]{
         width: 470px;
         margin: auto;
